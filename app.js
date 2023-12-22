@@ -57,3 +57,17 @@ function fccheck(){
     let c=(fccheck-32)/1.8;
   let b=  document.getElementById("cfshow").innerText=`The Celcious of ${fccheck} Number is ${c}`;
 }
+//////Celcious TO Kelvin  
+
+function ckcheck(){
+    let ckcheck=document.getElementById("cfvalue").value;
+   let kel=273+ckcheck;
+ let b=  document.getElementById("cfshow").innerText=`The Kelvin of ${ckcheck} Number is ${kel}`;
+}
+////// Kelvin To Celcious  
+
+function kccheck(){
+    let kccheck=document.getElementById("cfvalue").value;
+   let cel=kccheck-273;
+ let b=  document.getElementById("cfshow").innerText=`The Celcious of ${kccheck} Number is ${cel}`;
+}
