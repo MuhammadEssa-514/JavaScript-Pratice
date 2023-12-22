@@ -42,7 +42,8 @@ function sqrotfun(){
 function shbt(){
     document.getElementById("parashow").style.display="block";
 }
-////// =======================5==================
+////// =======================5 =Temperature=================
+
 //////Convert Celcious TO Fareheight
 function cfcheck(){
     let cfcheck=document.getElementById("cfvalue").value;
