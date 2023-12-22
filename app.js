@@ -43,4 +43,4 @@ function shbt(){
     document.getElementById("parashow").style.display="block";
 }
 ////// =======================5==================
-////// Celcious TO farenight
+//////Convert Celcious TO Fareheight
