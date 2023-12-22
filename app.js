@@ -47,17 +47,12 @@ function shbt(){
 function cfcheck(){
     let cfcheck=document.getElementById("cfvalue").value;
     let f=(1.8*cfcheck)+32;
-  let a=  document.getElementById("cfshow").innerText=f;
-
+  let a=  document.getElementById("cfshow").innerText=`The Farenheit of ${cfcheck} Number is ${f}`;
+}
 //////Convert Fareheight TO Celcious  
 
 function fccheck(){
      let fccheck=document.getElementById("cfvalue").value;
     let c=(fccheck-32)/1.8;
-//   let b=  document.getElementById("cfshow").innerText=c;
-alert(c);
-}
-
-
-
+  let b=  document.getElementById("cfshow").innerText=`The Celcious of ${fccheck} Number is ${c}`;
 }
