@@ -71,3 +71,5 @@ function kccheck(){
    let cel=kccheck-273;
  let b=  document.getElementById("cfshow").innerText=`The Celcious of ${kccheck} Number is ${cel}`;
 }
+
+////// =======================6 =Mathi=================
