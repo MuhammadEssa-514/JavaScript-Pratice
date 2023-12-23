@@ -76,10 +76,32 @@ function kccheck(){
 
 //////// for aquare root
 function MathiFun(){
-    let root=document.getElementById("mathinput").value;
-    let valroot=Math.sqrt(root);
+    let dataVal=document.getElementById("mathinput").value;
+    let valroot=Math.sqrt(dataVal);
+    // let valEvOd=Math.sign(dataVal);
+    
+    if (dataVal>0){
+        document.getElementById("shomathi").
+        innerText=`the number ${dataVal} is Positive`;
+        
+    }else if(dataVal==0){
+        document.getElementById("shomathi").
+        innerText=`the number ${dataVal} is Equa; To Zero`;
+    }else if(dataVal<0){
+        document.getElementById("shomathi").
+        innerText=`the number ${dataVal} is Negative`;
+    }else if(dataVal){
 
-    document.getElementById("shomathi").innerText=valroot;
+   
+    document.getElementById("shomathi").
+    innerText=valroot;
+        // document.getElementById("shomathi").
+        // innerText=`the number ${dataVal} is In valid`;
+    }
+
+   
+    document.getElementById("shomathi").
+    innerText=valroot; 
 }
 //////// for even and odd numbe checking
 
