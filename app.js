@@ -73,3 +73,21 @@ function kccheck(){
 }
 
 ////// =======================6 =Mathi=================
+
+//////// for aquare root
+function Squarroot(){
+    let root=document.getElementById("mathinput").value;
+    let valroot=Math.sqrt(root);
+    
+    document.getElementById("shomathi").innerText=valroot;
+}
+//////// for even and odd numbe checking
+
+// function Evnod(){
+//     let Evnod=document.getElementById("mathinput").value;
+
+//     let valeveodd=Math.sign(Evnod);
+//     document.getElementById("shomathi").innerText=valeveodd;
+
+
+// }
