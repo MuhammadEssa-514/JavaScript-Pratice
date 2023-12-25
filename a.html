@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a</title>
+</head>
+<script>
+    function convertTemperature(unit, convertFn, suffix) {
+    let value = document.getElementById("cfvalue").value;
+    let result = convertFn(parseFloat(value));
+    document.getElementById("cfshow").innerText = `The ${unit} of ${value} is ${result} ${suffix}`;
+}
+
+function cfcheck() {
+    convertTemperature("Fahrenheit", (c) => 1.8 * c + 32, "°F");
+}
+
+function fccheck() {
+    convertTemperature("Celsius", (f) => (f - 32) / 1.8, "°C");
+}
+
+function ckcheck() {
+    convertTemperature("Kelvin", (c) => 273 + c, "K");
+}
+
+function kccheck() {
+    convertTemperature("Celsius", (k) => k - 273, "°C");
+}
+
+</script>
+<body>
+    <input type="number" id="cfvalue" placeholder="Enter temperature">
+
+<button onclick="cfcheck()">Celsius To Fahrenheit</button>
+
+<button onclick="fccheck()">Fahrenheit To Celsius</button>
+
+<button onclick="ckcheck()">Celsius To Kelvin</button>
+
+<button onclick="kccheck()">Kelvin To Celsius</button>
+
+<h1 id="cfshow"></h1>
+</body>
+</html>

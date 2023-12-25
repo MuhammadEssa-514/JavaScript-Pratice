@@ -1,0 +1,4 @@
+1-farenheit=(1.8*celcious)+32
+2-cecious=(f/1.8)-32
+3-celcious to kelvin   ...k=273+c;
+4-kevin to celcious  ..c=k-273;
