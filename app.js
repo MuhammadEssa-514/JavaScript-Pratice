@@ -126,13 +126,17 @@ function MathiFun(){
 // console.log(Math.floor(c));
 
 //////////======== find greatest number========
-let a=prompt("enter first no")
-let b=prompt("enter second no")
-let c=prompt("enter third no")
-let d=prompt("enter forth no")
-let e=prompt("enter five no")
+// let a=prompt("enter first no")
+// let b=prompt("enter second no")
+// let c=prompt("enter third no")
+// let d=prompt("enter forth no")
+// let e=prompt("enter five no")
 
-let o=Math.
+// let o=Math.max(a,b,c,d,e);
+// console.log(`${a},${b},${c},${d},${e} the largest number is : ${o}`);
+
+//////////======== find greatest number========
+
 
 
 
