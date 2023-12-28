@@ -114,13 +114,28 @@ function MathiFun(){
 
 // }
 
-////////// generate random number 
-let d=Math.random();
-console.log(d);
-d=d*(100-1)+1;
-console.log(d);
-console.log(Math.floor(d));
-////////// new method
-let c=Math.random();
-c=c*1000;
-console.log(Math.floor(c));
+//////////======== generate random number =====
+// let d=Math.random();
+// console.log(d);
+// d=d*(100-1)+1;
+// console.log(d);
+// console.log(Math.floor(d));
+// ////////// new method
+// let c=Math.random();
+// c=c*1000;
+// console.log(Math.floor(c));
+
+//////////======== find greatest number========
+let a=prompt("enter first no")
+let b=prompt("enter second no")
+let c=prompt("enter third no")
+let d=prompt("enter forth no")
+let e=prompt("enter five no")
+
+let o=Math.
+
+
+
+
+
+
