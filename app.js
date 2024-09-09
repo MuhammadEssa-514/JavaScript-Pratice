@@ -57,7 +57,7 @@ function fccheck(){
     let c=(fccheck-32)/1.8;
   let b=  document.getElementById("cfshow").innerText=`The Celcious of ${fccheck} Number is ${c}`;
 }
-//////Celcious TO Kelvin  
+//////Celcious TO Kelvin
 
 function ckcheck(){
     let ckcheck=document.getElementById("cfvalue").value;
@@ -135,7 +135,39 @@ function MathiFun(){
 // let o=Math.max(a,b,c,d,e);
 // console.log(`${a},${b},${c},${d},${e} the largest number is : ${o}`);
 
-//////////======== find greatest number========
+
+
+// =============================================new pra start from 09 september=============================================
+
+
+// function showdata(){
+
+//     let email=document.getElementById("email").value;
+//     let pass=document.getElementById("pass").value;
+//     document.getElementById("showdetail").innerHTML+=`<div><ol><li>email : ${email}</li><li>password : ${pass}</li></ol></div>`;
+    
+//     ["email", "pass"].forEach(e => document.getElementById(e).value = "");
+// }
+function showdata() {
+    window.c="capital";
+    let email = document.getElementById("email").value;
+    let pass = document.getElementById("pass").value;
+
+    document.getElementById("showdetail").innerHTML += `<div><ol><li>email : ${email}</li><li>password : ${pass}</li></ol></div>`;
+
+    localStorage.setItem("userData", JSON.stringify({ email, pass }));
+
+    ["email", "pass"].forEach(e => document.getElementById(e).value = "");//2 tarikha ha iska data empty karna kaliya 
+}
+document.write(window.c)
+
+
+    // document.getElementById("email").value="";
+    // document.getElementById("pass").value="";
+
+// document.getElementById("showdetail").innerHTML+=`<div><ol><li>Your Email is =  ${email} </li>\n<li> Your Password is =${pass} </li></ol></div>`;
+    // document.getElementById("showdetail").innerHTML+=`<div><ol><li>Your Email is =  ${email} </li></ol></div>`;
+    // document.getElementById("showdetaill").innerHTML+=`<div><ol><li>Your Email is =  ${pass} </li></ol></div>`;
 
 
 
